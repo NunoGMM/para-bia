@@ -1,0 +1,30 @@
+body {
+    background-color:#ffadce;
+    font-family:cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.texto {
+    margin-top: 200px;
+    font-size: 40px;
+}
+.escolha a{
+    background-color: #ff80b6;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid#f9128f;
+    border-radius: 20px;
+    width: 15%;
+    transition: transform 0.3s ease;
+}
+.escolha a:hover, a:active {
+    background-color: #ff489f;
+    transform: translateX(3px) translateY(-3px);
+}
+
+
+
+
