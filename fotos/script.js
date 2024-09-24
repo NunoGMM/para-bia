@@ -7,7 +7,7 @@ function getRandomPosition(max, last) {
     let newValue;
     do {
         newValue = Math.random() * max;
-    } while (Math.abs(newValue - last) > 400); // Garante que o novo valor seja diferente do anterior
+    } while (Math.abs(newValue - last) < 400); // Garante que o novo valor seja diferente do anterior
     return newValue;
 }
 
